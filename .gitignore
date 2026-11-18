@@ -34,3 +34,5 @@ dist/
 .env
 .env.local
 
+
+flutter/
