@@ -1,0 +1,36 @@
+# Zero-Bloat Git Configuration
+
+# Local Flutter SDK clone (if present on dev machine)
+flutter/
+
+# Flutter build artifacts and temporary files
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/pubspec.lock
+**/.pub-cache/
+
+# Local IDE & OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Executables and compiled binaries
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.apk
+*.zip
+*.tar.gz
+
+# Environment variables
+.env
+.env.local
+
